@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 4px solid #3498db; /* Blue border color */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+input:focus {
+  outline: none;
+  border-color:#FBE9E7; /* Change border color on focus to green */
+  
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 4px solid #3498db; /* Blue border color */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #FBE9E7; /* Change border color on focus to green */
+ 
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #2ecc71; /* Green background color */
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color:cyan; /* Darker green on hover */
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
